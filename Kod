@@ -1,6 +1,4 @@
-// ConsoleApplication1.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
-//
-
+//Rozwiązanie autorstwa użytkownika Peggaz, jeśli pobierasz to rozwiązanie zachowaj tę linnie ;)
 #include "pch.h"
 #include <iostream>
 #include <list>
