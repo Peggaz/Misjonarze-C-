@@ -105,7 +105,7 @@ public:
 				for (int j = 0; j <= PT; j++) {
 					if (i == 0 && j == 0 || (i+j > PT));
 					else if (S->ML >= i && S->KL >= j) {
-						S1 = new Stan(S->ML - i, S->KL - j, S->MP + i, S->KP + j, false, S);
+						S1 = new Stan(S->KL - j, S->ML - i, S->KP + j, S->MP + i, false, S);
 						NoweStany.push_back(S1);
 					}
 				}
@@ -114,7 +114,7 @@ public:
 				for (int j = 0; j <= PT; j++) {
 					if (i == 0 && j == 0 || (i + j > PT));
 					else if (S->MP >= i && S->KP >= j) {
-						S1 = new Stan(S->ML + i, S->KL + j, S->MP - i, S->KP - j, true, S);
+						S1 = new Stan(S->KL + j, S->ML + i, S->KP - j, S->MP - i, true, S);
 						NoweStany.push_back(S1);
 					}
 				}
