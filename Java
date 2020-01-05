@@ -1,4 +1,4 @@
-
+//Rozwiązanie autorstwa użytkownika Peggaz w opraciu o wykłady Krzysztofa Ślota, jeśli pobierasz to rozwiązanie zachowaj tę linie ;)
 package algortm.przeszukiwania.modyfikacja;
 
 import java.util.ArrayList;
